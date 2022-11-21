@@ -1,0 +1,39 @@
+.default {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.online {
+  composes: default;
+  background-color: green;
+}
+.offline {
+  composes: default;
+  background-color: red;
+}
+.friendList {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  display: flex;
+  width: 315px;
+  height: 75px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  box-shadow: 5px 10px #888888;
+}
+.avatar {
+  margin: 10px 20px;
+}
+.name {
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: 19px;
+  font-weight: 500;
+}

@@ -1,0 +1,11 @@
+.profile {
+  height: 361px;
+  width: 400px;
+  background: beige;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
