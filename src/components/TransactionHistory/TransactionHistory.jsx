@@ -1,7 +1,7 @@
 import s from './TransactionHistory.module.css';
-export const Transactions = ({ transactions }) => {
+export const TransactionsHistory = ({ transactions }) => {
   return (
-    <table>
+    <table className={s.transactionHistory}>
       <thead>
         <tr>
           <th>Type</th>

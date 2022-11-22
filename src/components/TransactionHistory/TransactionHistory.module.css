@@ -18,3 +18,6 @@ td {
   background: #f5d7bf;
   padding: 10px;
 }
+.transactionHistory {
+  border: 1px solid;
+}
