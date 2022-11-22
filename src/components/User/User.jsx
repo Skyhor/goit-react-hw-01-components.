@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-// import style from './Profile.module.css';
 import s from './User.module.css';
 export const Profile = props => {
   const {
